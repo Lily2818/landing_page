@@ -1,0 +1,554 @@
+@font-face {    /*create function for font */
+    font-family: "Proxima Nova";
+    src: url("Proxima Nova Font.otf");
+}
+body {
+    overflow-x: hidden;
+}
+button {
+    cursor: pointer;
+}
+.section-nav {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px #E5E9F2;
+    height: 72px;
+    width: 1202px;
+}
+
+.section-nav-left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 553px;
+    height: 28px;
+    left: 165px;
+}
+
+#section-nav-logo{
+    width: 105px;
+    height: 28px;
+    padding: 10px;
+}
+
+.section-nav-text{
+    font-family: Proxima Nova;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 416px;
+    height: 25px;
+    left: 137px;
+    top: 4px;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+
+.fa-angle-down{
+    position: static;
+    left: 20.83%;
+    right: 20.83%;
+    padding-top: 20px;   /*move down arrow*/
+
+
+}
+
+.section-nav-right{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 282px;
+    height: 40px;
+    right: 200px;
+
+}
+
+#section-nav-google{
+    width: 135px;
+    height: 40px;
+    position: static;
+    left: 52.13%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+#section-nav-app{
+    width: 135px;
+    height: 40px;
+    position: static;
+    left: 0%;
+    right: 52.13%;
+    top: 0%;
+    bottom: 0%;
+}
+/*section1*/
+#section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 1202px;
+    height: 400px;
+    left: 165px;
+    top: 269px;
+    justify-content: center;
+
+}
+#section1-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+
+}
+#section1-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+#section1-h1 {
+    position: static;
+    width: 540px;
+    height: 156px;
+    left: 0px;
+    top: 0px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    color: #18191F;
+}
+#section1-p {
+    position: static;
+    width: 540px;
+    height: 64px;
+    left: 0px;
+    top: 172px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    color: #18191F;
+
+}
+#section1-button {
+    position: static;
+    width: 196px;
+    height: 62px;
+    left: 0px;
+    top: 252px;
+    background: #8C30F5;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+
+}
+#section1-image {
+    position: static;
+    width: 524px;
+    height: 400px;
+    left: 578px;
+    top: 0px;
+
+}
+/*section2*/
+#section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 0px;
+    position: absolute;
+    width: 1000px;
+    height: 194px;
+    left: 0px;
+    top: 866px;
+    justify-content: space-between;
+    padding-left: 180px;
+}
+.section2-line-number-text {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    padding: 0px;
+    justify-content: center;
+
+}
+.section2-number{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 5px;
+    color: #18191F;
+
+}
+.section2-text{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 0px;
+    color: #18191F;
+
+}
+.section2-bar {
+    border-left: 2px solid #8C30F5;;
+    height: 66px;
+
+}
+.section2-number-text{
+    padding-left: 16px; /*space betwn bar and text*/
+    line-height: 5px;
+    align-items: center;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 500px;
+    position: absolute;
+    width: 1598px;
+    height: 960px;
+    left: 0px;
+    top: 1060px;
+    background: #FFFFFF;
+    justify-content:center;
+
+}
+.section3-title {
+    position: absolute;
+    width: 730px;
+    height: 64px;
+    left: 165px;
+    top: 64px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+}
+.section3-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 1112px;
+    height: 720px;
+    left: 165px;
+    top: 176px;
+
+}
+.section3-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 540px;
+    height: 512px;
+    left: 0px;
+    top: 104px;
+}
+.section3-icon-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px; /*separate div icon-text*/
+    justify-content: center;
+}
+.icon{
+    width: 72px;
+    height: 72px;
+    border-radius: 100px;
+    color: white;
+}
+.section3-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 10px;/* 0 is for height; 10 is for width*/
+    justify-content: center;
+}
+.head{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #18191F;
+    padding: 0;
+    margin: 0px;
+}
+.section3-p {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+    padding: 0;
+    margin:0px;
+
+}
+.section3-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 540px;
+    height: 720px;
+    left: 572px;
+    top: 0px;
+
+}
+.phone {
+    width: 540px;
+    height: 720px;
+}
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    position: absolute;
+    width: 1498px;
+    height: 380px;
+    left: 0px;
+    top: 2020px;
+    background: #8C30F5;
+}
+.section4-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    margin-top: 0px;
+
+}
+.section4-head {
+
+    width: 730px;
+    height: 128px;
+    left: 0px;
+    top: 0px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: white;
+
+}
+#section4-btn {
+    font-family: Proxima Nova;
+    position: absolute;
+    top: 73.04%;
+    bottom: 0%;
+    background: #FFFFFF;
+    color: #8C30F5 ;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin: 40px 0px;
+    font-size: 20px;
+    text-align: center;
+    border-color: transparent;
+    width: 240px;
+    height: 62px;
+    line-height: 30px;
+
+}
+
+
+.section4-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    left: 11.46%;
+    right: 11.46%;
+    justify-content: center;
+    top: 77.92%;
+    bottom: 16.67%;
+
+}
+.section4-icon-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 350px;
+    height: 26px;
+    justify-content: center;
+
+}
+
+.section4-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 0px;
+    width: 18px;
+    height: 26px;
+    color: white;
+
+}
+
+.fa fa-check-circle {
+    position: absolute;
+    color: white;
+}
+
+.section4-text{
+    position: static;
+    width: 300px;
+    height: 24px;
+    left: 16px;
+    top: 0px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 0px;
+    color: white;
+
+}
+
+.section5 {
+    position: absolute;
+    width: 1498px;
+    height: 72px;
+    left: 0px;
+    top: 2500px;
+    background: #0B0D17;
+}
+.section5-text {
+    position: absolute;
+    width: 250px;
+    height: 24px;
+    left: 165px;
+    top: calc(50% - 24px/2);
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 5px;
+    color: #D9DBE1;
+}
+.section5-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 144px;
+    height: 24px;
+    right: 165px;
+    top: calc(50% - 24px/2);
+    justify-content: space-between;
+}
+
+.section5-circle {
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    background-color: #18191F;
+    border-radius: 12px; /*half of 24 to make a circle*/
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* pop up Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content -POP UP*/
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#signup_btn {
+    position: static;
+    width: 140px;
+    height: 40px;
+    left: 0px;
+    top: 252px;
+    background: #8C30F5;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+
+
+}
+.form {
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#signup {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 78px;
+    color: #18191F;
+}
+.w3-input {
+    margin-bottom: 10px;
+}
